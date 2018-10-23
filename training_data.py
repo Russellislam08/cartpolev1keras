@@ -1,3 +1,8 @@
+'''
+  training_data.py
+  This module obtains all necessary training data.
+  This includes the initial training data and any further data.
+'''
 import gym
 import random
 import numpy as np
@@ -8,6 +13,7 @@ from random import shuffle
 env = gym.make('CartPole-v1')
 env.reset()
 goal_steps = 500
+# The minimum score which the random games played should achieve in order to be recorded
 score_requirement = 50
 # The number of initial games to play to obtain a training sample can be tweaked
 # Set to 15000 to try and get an accurate sample without spending too much time
