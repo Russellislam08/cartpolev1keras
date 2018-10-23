@@ -15,7 +15,7 @@ from training_data import goal_steps
 
 def neural_network_model(input_size):
   # Creates a model with 11 layers in total
-  # Dropout layers are added to prevet overfitting
+  # Dropout layers are added to prevent overfitting
   model = Sequential()
   
   model.add(Dense(128, input_shape=(input_size,)))
@@ -55,7 +55,7 @@ def train_model(training_data, model=False):
 
 def test_model(model):
   # Play the game 100 times and keep track of the score attained
-  # The model has to achieve an average score over 195 for 100 trials to be considered functional
+  # The model has to achieve an average score over 195 for 100 trials to be considered successful
 
   scores = []
   choices = []
