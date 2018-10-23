@@ -24,5 +24,6 @@
 
 - Added a secondary training step. This step consists of a fraction of the trials played by the trained neural network and the rest is played using random values, similar to the first training step.
   - The idea of this is that since the initial games played are completely random, the outcome of the model will be random as well. I decided to make the model play again and then learn from itself in order to improve its score. I've run the model numerous times and the general trend is that it scores better once trained again. 
+  - Sometimes the model will score below 195 after training once. Once trained again, the model learns to play the game better and achieves scores greater than 195, making it successful.
   - Theoretically, this step can be done x number of times. I did it once just to show the idea of it.
   - Also, in general, if using a bot to record game data, you should add randomness to the games. If not, then the bot will not try to find different ways to win. The whole point is to have it explore its capabilities
