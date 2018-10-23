@@ -16,7 +16,7 @@
   
   The model is implemented using Tensorflow along with Keras and has 11 layers in total. Training data is obtained initially by running numerous trials of the game with random values as the input. The model uses reinforcement learning on the data to teach itself how to play the game to achieve a score which is acceptable.
   
-  The model is not computationally too expensive. I run this using Tensorflow-GPU on a nVidia Geforce 940MX 2GB RAM on Ubuntu 18.04 and the whole process takes about 5 minutes to complete.
+  The model is not computationally expensive. I run this using Tensorflow-GPU on a nVidia Geforce 940MX 2GB RAM on Ubuntu 18.04 and the whole process takes about 5 minutes to complete.
 
 #### Differences in the version I created:
 
