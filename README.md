@@ -1,8 +1,8 @@
 # OpenAI Gym CartPole-v1 Neural Network using Keras
 
-## CartPole-v1 can be found here: https://gym.openai.com/envs/CartPole-v1/
+### CartPole-v1 can be found here: https://gym.openai.com/envs/CartPole-v1/
 
-## Inspired by Sentdex's reinforcement learning video series which can be found here: https://www.youtube.com/watch?v=3zeg7H6cAJw&ab_channel=sentdex
+### Inspired by Sentdex's reinforcement learning video series which can be found here: https://www.youtube.com/watch?v=3zeg7H6cAJw&ab_channel=sentdex
 
 Changes that I made:
   1) Implemented the neural network using Keras, instead of TFLearn which Sentdex uses in his series. A few changes this leads to is the reshaping of the Numpy arrays and adding in a validation split when calling model.fit()
