@@ -7,7 +7,7 @@
 #### What is OpenAI Gym?
   OpenAI Gym is a toolkit with various environments which can be used as a playground to develop neural networks.
   
-  One of the environments is a game in which you have a pole on a cart and you must make it balance for 200 frames. If it tilts too far from the axis or the cart moves too far to the left/right, you lose. The whole point is to train a neural network to be able to play the game.
+  One of the environments is a game in which you have a pole on a cart and you must make it balance. If it tilts too far from the veritcal axis or the cart moves too far to the left/right, you lose. The whole point is to train a neural network to be able to play the game.
   
   The game CartPole-v1 is considered solve when the average score attained by the bot is >= 195.0 over 100 consecutive trials, which this model does.
  
