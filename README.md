@@ -9,7 +9,7 @@
   
   One of the environments is a game in which you have a pole on a cart and you must make it balance. If it tilts too far from the veritcal axis or the cart moves too far to the left/right, you lose. The whole point is to train a neural network to be able to play the game.
   
-  The game CartPole-v1 is considered solve when the average score attained by the bot is >= 195.0 over 100 consecutive trials, which this model does.
+  The game CartPole-v1 is considered solved when the average score attained by the bot is >= 195.0 over 100 consecutive trials, which this model does.
  
 #### What did I make?
   I followed a tutorial on YouTube created by Sentdex to develop a neural network using Python to learn how to play the game. There are certain differences between what he did and what I did, which I explain further below. 
