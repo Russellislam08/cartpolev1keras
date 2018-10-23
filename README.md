@@ -20,7 +20,7 @@
 
 #### Differences in the version I created:
 
-- Implemented the neural network using Keras, instead of TFLearn which Sentdex uses in his series. A few changes this leads to is the reshaping of the Numpy arrays and adding in a validation split when training the model
+- Implemented the neural network using Keras, instead of TFLearn which Sentdex uses in his series. A few changes this leads to is the reshaping of the Numpy arrays and adding in a validation split when training the model.
 
 - Added a secondary training step. This step consists of a fraction of the trials played by the trained neural network and the rest is played using random values, similar to the first training step.
   - The idea of this is that since the initial games played are completely random, the outcome of the model will be random as well. I decided to make the model play again and then learn from itself in order to improve its score. I've run the model numerous times and the general trend is that it scores better once trained again. 
