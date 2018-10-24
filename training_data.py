@@ -42,6 +42,9 @@ def initial_training_data():
         env.reset()
         break
 
+    # This is where the reinforcement learning kicks in.
+    # We give the model a certain score that it must achieve
+    # In no way do we tell the model how to achieve that score
     if score >= score_requirement:
       accepted_scores.append(score)
       for data in game_memory:
